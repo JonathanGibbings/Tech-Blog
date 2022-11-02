@@ -68,7 +68,7 @@ router.post("/", (req, res) => {
 });
 // POST /api/user/login
 router.post("/login", (req, res) => {
-  // expects {email: 'lernantino@gmail.com', password: 'password1234'}
+  // expects username, and password
   User.findOne({
     where: {
       username: req.body.username,

@@ -16,16 +16,16 @@ const app = express();
 const PORT = process.env.PORT || 3001;
 
 // session variables and setup
-// const sesh = {
-//   secret: process.env.SESH_SEC,
-//   cookie: {},
-//   resave: false,
-//   saveUninitialized: true,
-//   store: new SequelizeStore({
-//     db: sequelize,
-//   }),
-// };
-// app.use(session(sesh));
+const sesh = {
+  secret: process.env.SESH_SEC,
+  cookie: {},
+  resave: false,
+  saveUninitialized: true,
+  store: new SequelizeStore({
+    db: sequelize,
+  }),
+};
+app.use(session(sesh));
 
 // setup handlebars
 const hbs = exphbs.create({ helpers });
