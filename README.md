@@ -2,7 +2,7 @@
 
 ## Description
 
-A full stack CMS style blog.
+A full stack CMS style blog. Where users can login create posts and comment on other users posts.
 
 ## Deployed Application
 
@@ -11,10 +11,6 @@ LINK HERE
 ## Screenshot
 
 ![Screenshot](./assets/imgs/tech-blog-screenshot.jpg)
-
-## Tutorial Video
-
-[![Tutorial Video](./assets/imgs/tech-blog-screenshot.jpg)]()
 
 ## Built With
 
